@@ -1,5 +1,5 @@
 # Como criar um gitspace (workspace para repositórios git)
-
+## Criando o gitspace
 Crie um diretorio com o nome gitspace, e também os diretórios
 que serão supervisionados pelo git.
 Por exemplo o diretorio com o nome da conta pessoal do git:
@@ -59,7 +59,16 @@ elas utilizando esse passo a passo aqui:
 
 [github.com/rprojetos/ssh-keygen](https://github.com/rprojetos/ssh-keygen)
 
+## clonado um diretorio de uma conta do github para o gitspace
+Exemplo: Clonando a partir da conta minhaContaPessoal
+```sh
+git clone -b main git@github.com:minhaContaPessoal/meu-repo.git
+```
 
+Exemplo: Clonando a partir da conta minhaContaPessoal
+```sh
+git clone -b main git@github.com-minhaContaProfissional:minhaContaProfissional/meu-repo.git
+```
 
 
 ## Git - Comandos uteis
