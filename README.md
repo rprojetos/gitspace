@@ -1,7 +1,7 @@
-# How to create your gitspace
+# Como criar um gitspace (workspace para repositórios git)
 
 ## Uteis
-### TAG
+### Como criar TAG usando comandos do git
 #### lista as tags de um repositorio
 > git tag
 #### criando uma tag usando a mensagem do ultimo commit
